@@ -9,7 +9,7 @@ $periodo = filter_input(INPUT_POST,"periodo",FILTER_DEFAULT);
 if (trim($nome) === "" || $nome === null ||
     trim($email) === "" || $email === null ||
     trim($periodo) === "" || $periodo === null){
-    header("Location: respform.php");
+    header("Location: formArray.php");
     exit;
 } 
 
